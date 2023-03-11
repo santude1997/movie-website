@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer'>
-        footer
+        <h2>Develop with react Props and json data without api</h2>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='header'>
-        <h1>Movie Review</h1>
+        <h1>Movie List </h1>
     </div>
   )
 }
