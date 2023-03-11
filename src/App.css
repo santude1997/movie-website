@@ -4,10 +4,47 @@
     box-sizing: border-box;
 }
 
+.header {
+    background-color: rgb(21, 21, 182);
+    color: white;
+    padding: 8px;
+}
+
+.footer {
+    background-color: rgb(21, 21, 182);
+    color: white;
+    padding: 8px;
+}
+
 .App  {
     text-align: center;
     background-color: #282c34;
     color: white;
     min-height: 100vh;
     min-width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.movie{
+    background-color: rgb(219, 212, 212);
+    color: black;
+    border: 1px solid gray;
+    padding: 3px;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 30px;
+    width: 20%;
+}
+
+ 
+
+img {
+    height: 300px;
+    width: 300px;
 }
